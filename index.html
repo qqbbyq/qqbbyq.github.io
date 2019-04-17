@@ -53,40 +53,11 @@
         <!-- template main js -->
         <script src="js/main.js"></script>
         <script type="text/javascript">
-        function judge(tar) { 
-			<!--if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) { -->
-			<!-- -->	$(".navbar-collapse").collapse('hide');
-    		<!-- -->	window.location.href = "#feature";
-			<!-- -->} else {
+        function collapse() { 
 				$(".navbar-collapse").collapse('hide');
-    		<!-- -->	window.location.href = tar;
-			<!-- -->}
 		}
         </script>
-        <style>	
-          #call-to-action .address, #call-to-action .email, #call-to-action .phone {
-    										text-align: center;
-                                            background: #F7F7F7;
-                                            padding: 20px 0 40px 0;
-                                            margin-bottom: 20px;
-                                        }
-		  #call-to-action .address i, #call-to-action .email i, #call-to-action .phone i {
-				font-size: 45px;
-				color: #02bdd5;
-			}
-			
-		#call-to-action .address p, #call-to-action .email p, #call-to-action .phone p {
-			color: #02bdd5;
-			font-family: 'Roboto', sans-serif;
-			line-height: 22px;
-			font-size: 16px;
-			font-weight: 300;
-			} 
-		.section-heading {
-			text-align: center;
-			margin-bottom: 20px;
-		}
-        </style>
+     
     </head>
     <body>
         <!--
@@ -118,10 +89,10 @@
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="index.html" >主页</a>
+                                <a href="#hero-area" data-section="#hero-area"  onclick="collapse();">主页</a>
                             </li> 
-                            <li><a href="#feature" data-section="#feature" onclick="judge();">服务</a></li>
-                            <li><a href="#works" data-section="#works" onclick="judge();">成功案例</a></li>
+                            <li><a href="#feature" data-section="#feature" onclick="collapse();">服务</a></li>
+                            <li><a href="#works" data-section="#works" onclick="collapse();">成功案例</a></li>
                          <!--   <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
                                 <div class="dropdown-menu">
@@ -141,8 +112,8 @@
                                     </ul>
                                 </div>
                             </li> -->
-                            <li><a href="#about" data-section="#about" onclick="judge();">关于我们</a></li>
-                            <li><a href="#call-to-action" data-section="#call-to-action" onclick="judge();">联系方式</a></li>
+                            <li><a href="#about" data-section="#about" onclick="collapse();">关于我们</a></li>
+                            <li><a href="#call-to-action" data-section="#call-to-action" onclick="collapse();">联系方式</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -163,17 +134,27 @@
                             <!-- Slider -->
                             <section class="cd-intro">
                                 <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                                <span>Master@CUFE  中财考研咨询服务工作室</span><br>
-                                我们是最<span class="cd-words-wrapper">
-                                    <b class="is-visible">专业</b>
-                                    <b>亲切</b>
-                                    <b>随缘</b>
-                                </span>的工作室
+                                <span>Master@CUFE</span><br>
+                                <br>
+                                  想在财经黄埔里学习最专业的金融知识吗<br>
+                                  想在招聘简历上增添中财硕士的光环吗<br>
+                                  想在金融行业中大展身手吗<br>
+                                  想在拓展业务时处处有校友吗<br>
+                             <!--   想<span class="cd-words-wrapper">
+                                    <b class="is-visible">
+                                    在财经黄埔里<br>学习最专业的金融知识吗
+                                    
+                                    </b>
+                                    <b>在招聘简历上增添中财硕士的光环吗</b>
+                                    <b>在金融行业中大展身手吗</b>
+                                    <b>在拓展业务时处处有校友吗</b>
+                                </span> -->
                                 </h1>
                                 </section> <!-- cd-intro -->
                                 <!-- /.slider -->
+                                <br>
                                 <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
-                                    有0年的教育服务经验，曾在考研中扮演考生的角色，高分学长一对帮你制定考研学习计划<br> web designer and developer. This site showcases some of my work.
+                                    一切，从这里开始，中财硕士，助力圆梦
                                 </h2>
                                 <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Works</a>
                                 
@@ -191,7 +172,7 @@
                     <div class="section-heading">
                         <h1 class="title wow fadeInDown" data-wow-delay=".3s">服务</h1>
                         <p class="wow fadeInDown" data-wow-delay=".5s">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
+                           
                         </p>
                         <br />
                     </div>
@@ -204,8 +185,8 @@
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Media heading</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                    <h4 class="media-heading">考研初试整体规划与监督</h4>
+                                    <p>由认真负责的对口导师给您制定专业而有针对性的计划，安排合理的执行方案；实施周期性的反馈与监督，根据状态进行适度的增压与减压，让您的学习正确而高效地达到初试的要求，避免因大量试错和信息不对称而产生的数月至数年，几万至十几万元的沉没成本。</p>
                                 </div>
                             </div>
                         </div>
@@ -217,8 +198,8 @@
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Well documented.</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                    <h4 class="media-heading">考研复试面试咨询与模拟</h4>
+                                    <p>向您介绍该专业的面试的相关要求，面试导师的性格偏好等信息，帮助您撰写一份面向导师的自我介绍，并提供一次视频模拟面试。再根据面试给出合理的建议和改进措施，最终让您在披挂上阵时谈吐得体，令人如沐春风。本着负责、质优的原则，现仅提供金融、保险、资产评估三个专业的面试咨询，其他专业请另行与我们沟通确认。</p>
                                 </div>
                             </div>
                         </div>
@@ -226,15 +207,17 @@
                             <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
                                 <div class="media-left">
                                     <div class="icon">
-                                        <i class="ion-ios-lightbulb-outline"></i>
+                                        <i class="ion-ios-barcode-outline"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Well documented.</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                    <h4 class="media-heading">硕士阶段规划与安排</h4>
+                                    <p>硕士学历则是您达到人生目标的重要途径，然而，大部分的硕士于在读期间都并不能清楚了解何为自身真实所需。我们会长期多次与您沟通，找到您内心中最想要达到的目标，据此帮您对考研后以及硕士阶段的大量时间进行合理规划，平衡您的学业、实习与考证，让您将实力、经历、学历精准变现，达到目标。</p>
                                 </div>
                             </div>
                         </div>
+                 </div>
+                 <div class="row">
                         <div class="col-md-4 col-lg-4 col-xs-12">
                             <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                                 <div class="media-left">
@@ -243,8 +226,9 @@
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Free updates</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                    <h4 class="media-heading">简历精修与简历翻译</h4>
+                                    <p>我们会由专人与您进行两次以上的电话沟通，期间给您的思维一个发酵的时间，以期获得一份啜菁撷华，赏心悦目的个人简历。
+                                    我们也可基于业务的特点，向您提供针对特定业务的简历，以期运筹帷幄，决胜千里。</p>
                                 </div>
                             </div>
                         </div>
@@ -256,12 +240,12 @@
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Solid Support</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                    <h4 class="media-heading">求职咨询与模拟面试</h4>
+                                    <p>校园招聘是一个知识变现的最核心阶段，二十多年所积累的知识，能力，都需要在面试时厚积薄发。我们有通过各大副部级央企金融类岗位，各大股份制银行经济金融岗，各头部券商前台，各大资管公司前台的资深导师能够给您提供最新的面试信息，帮助您对自我介绍进行优化，并提供时长为一个小时的线上视频沟通、咨询、模拟面试，让您在面试时轻松自如，发挥出自身最优秀的一面。</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4 col-xs-12">
+                        <!--<div class="col-md-4 col-lg-4 col-xs-12">
                             <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
                                 <div class="media-left">
                                     <div class="icon">
@@ -273,7 +257,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section> <!-- /#feature -->
@@ -286,8 +270,7 @@
                 <div class="container">
                     <div class="section-heading">
                         <h1 class="title wow fadeInDown" data-wow-delay=".3s">成功案例</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s">
-                            Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                        <p class="wow fadeInDown" data-wow-delay=".5s"></p> 
                     </div>
                     <div class="col-md-3">
                         <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
@@ -508,10 +491,7 @@
                                 关于我们
                                 </h2>
                                 <p>
-                                    Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
+                                    作为中财考研的过来人，我们对中央财经大学研究生招生考试的各个环节了如指掌。团队都是由成功考取中财硕士的在校生和已经拿到中财硕士学历且在银行保险券商等行业工作的职场精英们组成。在这里，我们不仅能够全方位的指导你如何备战中财硕士招生考试的初试、复试，而且在研究生宝贵的两年时间里，我们也会为您进行全面细致的规划，让您从踏入校园开始就快人一步，提前针对心仪的职位丰富自己的简历，让您在校园招聘中也能胸有成竹。
                                 </p>
                             </div>
                             
@@ -534,8 +514,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">联系方式</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">还等什么呢，快来联系我们吧！</p>
                                 <br />
                                <!-- <a href="#" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>  -->
                             	
@@ -544,26 +524,27 @@
                     				<div class="col-md-3">
                         				<div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
                             				<i class="ion-ios-location-outline"></i>
-                            				<p>125 , Kings Street,Melbourne <br>United Kingdom,600562</p>
+                                          
+                                            <p>地址<br>北京市西城区月坛北小街11号楼</p>
                         				</div>
                                    
                     				</div>
                                     <div class="col-md-3">
-                                        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
-                                            <i class="ion-ios-location-outline"></i>
-                                            <p>125 , Kings Street,Melbourne <br>United Kingdom,600562</p>
+                                         <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
+                                            <i class="ion-ios-telephone-outline"></i>
+                                            <p>联系电话<br>+86 18601288101</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
                                             <i class="ion-ios-email-outline"></i>
-                                            <p>support@themefisher.com<br>support@themefisher.com</p>
+                                            <p>邮箱<br>masteratcufe@163.com</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
-                                            <i class="ion-ios-telephone-outline"></i>
-                                            <p>+07 052 245 022<br>+07 999 999 999</p>
+                                            <i class="ion-ios-chatboxes-outline"></i>
+                                            <p>微信<br>viichat</p>
                                         </div>
                                     </div>
                 				</div>

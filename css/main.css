@@ -32,7 +32,7 @@ a:hover {
 }
 .section-heading {
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 .section-heading p {
   font-size: 14px;
@@ -185,7 +185,7 @@ a:hover {
   border: none;
   color: #fff;
   padding: 20px 35px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 16px;
   font-size: 13px;
   line-height: 1em;
@@ -202,6 +202,23 @@ a:hover {
   position: relative;
   color: #fff;
 }
+#call-to-action .address, #call-to-action .email, #call-to-action .phone {
+  text-align: center;
+  background: #F7F7F7;
+  padding: 20px 0 40px 0;
+  margin-bottom: 20px;
+}
+#call-to-action .address i, #call-to-action .email i, #call-to-action .phone i {
+	font-size: 45px;
+	color: #02bdd5;
+}		
+#call-to-action .address p, #call-to-action .email p, #call-to-action .phone p {
+	color: #02bdd5;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
+	font-size: 16px;
+	font-weight: 300;
+} 
 #call-to-action .block {
   position: relative;
   z-index: 99;
