@@ -67,7 +67,7 @@ a:hover {
   padding: 140px 0;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #02bdd5;
+  color: #0f5475
 }
 .navbar.navbar-default {
   border: 0;
@@ -123,7 +123,7 @@ a:hover {
   text-transform: uppercase;
 }
 #top-bar .main-menu li a:hover {
-  color: #02bdd5;
+  color: #0f5475;
 }
 .navbar-custom .nav li > a {
   position: relative;
@@ -194,13 +194,14 @@ a:hover {
   border-radius: 0;
 }
 #call-to-action {
-  background: #02bdd5;
+  background: #0f5475;
   background-size: cover;
   background-attachment: fixed;
-  padding: 80px 0;
+  padding: 40px 0;
   text-align: center;
   position: relative;
   color: #fff;
+  margin-bottom: 0px;
 }
 #call-to-action .address, #call-to-action .email, #call-to-action .phone {
   text-align: center;
@@ -210,10 +211,10 @@ a:hover {
 }
 #call-to-action .address i, #call-to-action .email i, #call-to-action .phone i {
 	font-size: 45px;
-	color: #02bdd5;
+	color: #0f5475;
 }		
 #call-to-action .address p, #call-to-action .email p, #call-to-action .phone p {
-	color: #02bdd5;
+	color: #0f5475;
 	font-family: 'Roboto', sans-serif;
 	line-height: 22px;
 	font-size: 16px;
@@ -237,7 +238,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: none;
-  color: #02bdd5;
+  color: #0f5475;
   padding: 16px 35px;
   margin-top: 20px;
   font-size: 12px;
@@ -386,7 +387,7 @@ figure figcaption h4 {
   margin: 0;
 }
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #0f5475;
 }
 figure figcaption p {
   font-size: 14px;
@@ -419,7 +420,7 @@ figure figcaption p {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #02bdd5;
+  background-color: #0f5475;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -430,7 +431,7 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px, #00a4ba 3px 3px, #00a4ba 4px 4px, #00a4ba 5px 5px, #00a4ba 6px 6px, #00a4ba 7px 7px, #00a4ba 8px 8px, #00a4ba 9px 9px, #00a4ba 10px 10px, #00a4ba 11px 11px, #00a4ba 12px 12px, #00a4ba 13px 13px, #00a4ba 14px 14px, #00a4ba 15px 15px, #00a4ba 16px 16px, #00a4ba 17px 17px, #00a4ba 18px 18px, #00a4ba 19px 19px, #00a4ba 20px 20px, #00a4ba 21px 21px, #00a4ba 22px 22px, #00a4ba 23px 23px, #00a4ba 24px 24px, #00a4ba 25px 25px, #00a4ba 26px 26px, #00a4ba 27px 27px, #00a4ba 28px 28px, #00a4ba 29px 29px, #00a4ba 30px 30px, #00a4ba 31px 31px, #00a4ba 32px 32px, #00a4ba 33px 33px, #00a4ba 34px 34px, #00a4ba 35px 35px, #00a4ba 36px 36px, #00a4ba 37px 37px, #00a4ba 38px 38px, #00a4ba 39px 39px, #00a4ba 40px 40px, #00a4ba 41px 41px, #00a4ba 42px 42px, #00a4ba 43px 43px, #00a4ba 44px 44px, #00a4ba 45px 45px, #00a4ba 46px 46px, #00a4ba 47px 47px, #00a4ba 48px 48px, #00a4ba 49px 49px, #00a4ba 50px 50px, #00a4ba 51px 51px, #00a4ba 52px 52px, #00a4ba 53px 53px, #00a4ba 54px 54px, #00a4ba 55px 55px, #00a4ba 56px 56px, #00a4ba 57px 57px, #00a4ba 58px 58px, #00a4ba 59px 59px, #00a4ba 60px 60px, #00a4ba 61px 61px, #00a4ba 62px 62px, #00a4ba 63px 63px, #00a4ba 64px 64px, #00a4ba 65px 65px, #00a4ba 66px 66px, #00a4ba 67px 67px, #00a4ba 68px 68px, #00a4ba 69px 69px, #00a4ba 70px 70px, #00a4ba 71px 71px, #00a4ba 72px 72px, #00a4ba 73px 73px, #00a4ba 74px 74px, #00a4ba 75px 75px, #00a4ba 76px 76px, #00a4ba 77px 77px, #00a4ba 78px 78px, #00a4ba 79px 79px, #00a4ba 80px 80px, #00a4ba 81px 81px, #00a4ba 82px 82px, #00a4ba 83px 83px, #00a4ba 84px 84px, #00a4ba 85px 85px, #00a4ba 86px 86px, #00a4ba 87px 87px, #00a4ba 88px 88px, #00a4ba 89px 89px, #00a4ba 90px 90px, #00a4ba 91px 91px, #00a4ba 92px 92px, #00a4ba 93px 93px, #00a4ba 94px 94px, #00a4ba 95px 95px, #00a4ba 96px 96px, #00a4ba 97px 97px, #00a4ba 98px 98px, #00a4ba 99px 99px, #00a4ba 100px 100px;
+  text-shadow: #0f5470 1px 1px, #0f5470 2px 2px, #0f5470 3px 3px, #0f5470 4px 4px, #0f5470 5px 5px, #0f5470 6px 6px, #0f5470 7px 7px, #0f5470 8px 8px, #0f5470 9px 9px, #0f5470 10px 10px, #0f5470 11px 11px, #0f5470 12px 12px, #0f5470 13px 13px, #0f5470 14px 14px, #0f5470 15px 15px, #0f5470 16px 16px, #0f5470 17px 17px, #0f5470 18px 18px, #0f5470 19px 19px, #0f5470 20px 20px, #0f5470 21px 21px, #0f5470 22px 22px, #0f5470 23px 23px, #0f5470 24px 24px, #0f5470 25px 25px, #0f5470 26px 26px, #0f5470 27px 27px, #0f5470 28px 28px, #0f5470 29px 29px, #0f5470 30px 30px, #0f5470 31px 31px, #0f5470 32px 32px, #0f5470 33px 33px, #0f5470 34px 34px, #0f5470 35px 35px, #0f5470 36px 36px, #0f5470 37px 37px, #0f5470 38px 38px, #0f5470 39px 39px, #0f5470 40px 40px, #0f5470 41px 41px, #0f5470 42px 42px, #0f5470 43px 43px, #0f5470 44px 44px, #0f5470 45px 45px, #0f5470 46px 46px, #0f5470 47px 47px, #0f5470 48px 48px, #0f5470 49px 49px, #0f5470 50px 50px, #0f5470 51px 51px, #0f5470 52px 52px, #0f5470 53px 53px, #0f5470 54px 54px, #0f5470 55px 55px, #0f5470 56px 56px, #0f5470 57px 57px, #0f5470 58px 58px, #0f5470 59px 59px, #0f5470 60px 60px, #0f5470 61px 61px, #0f5470 62px 62px, #0f5470 63px 63px, #0f5470 64px 64px, #0f5470 65px 65px, #0f5470 66px 66px, #0f5470 67px 67px, #0f5470 68px 68px, #0f5470 69px 69px, #0f5470 70px 70px, #0f5470 71px 71px, #0f5470 72px 72px, #0f5470 73px 73px, #0f5470 74px 74px, #0f5470 75px 75px, #0f5470 76px 76px, #0f5470 77px 77px, #0f5470 78px 78px, #0f5470 79px 79px, #0f5470 80px 80px, #0f5470 81px 81px, #0f5470 82px 82px, #0f5470 83px 83px, #0f5470 84px 84px, #0f5470 85px 85px, #0f5470 86px 86px, #0f5470 87px 87px, #0f5470 88px 88px, #0f5470 89px 89px, #0f5470 90px 90px, #0f5470 91px 91px, #0f5470 92px 92px, #0f5470 93px 93px, #0f5470 94px 94px, #0f5470 95px 95px, #0f5470 96px 96px, #0f5470 97px 97px, #0f5470 98px 98px, #0f5470 99px 99px, #0f5470 100px 100px;
 }
 #contact-section {
   padding: 90px 0;
@@ -442,10 +443,10 @@ figure figcaption p {
   margin-top: 35px;
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #0f5475;
 }
 #contact-section .contact-form .btn-send:hover {
-  border: 1px solid #02bdd5;
+  border: 1px solid #0f5475;
 }
 #contact-section input {
   display: block;
@@ -495,7 +496,7 @@ figure figcaption p {
 #contact-section .email i,
 #contact-section .phone i {
   font-size: 45px;
-  color: #02bdd5;
+  color: #0f5475;
 }
 #contact-section .address h5,
 #contact-section .email h5,
@@ -522,7 +523,7 @@ figure figcaption p {
   margin-top: 10px;
 }
 #footer .copyright a {
-  color: #02bdd5;
+  color: #0f5475;
 }
 #footer .social {
   text-align: right;
@@ -534,10 +535,10 @@ figure figcaption p {
 }
 #footer .social li a {
   font-size: 22px;
-  color: #02bdd5;
+  color: #0f5475;
 }
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #0f5475;
 }
 ul.social-icons {
   height: auto;
@@ -563,7 +564,7 @@ ul.social-icons li {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #02bdd5;
+  background: #0f5475;
   color: #fff;
 }
 .global-page-header h2 {
@@ -596,7 +597,7 @@ ul.social-icons li {
 }
 #product-showcase-banner .block h2 {
   font-size: 40px;
-  color: #02bdd5;
+  color: #0f5475;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -714,7 +715,7 @@ ul.social-icons li {
 }
 #related-items .block h4 span {
   float: right;
-  color: #02bdd5;
+  color: #0f5475;
 }
 #related-items .block .img-overly {
   position: relative;
@@ -750,7 +751,7 @@ ul.social-icons li {
 }
 .service-page .service-parts .block i {
   font-size: 35px;
-  color: #02bdd5;
+  color: #0f5475;
 }
 .service-page .service-parts .block p {
   padding: 0 8px;
@@ -808,7 +809,7 @@ ul.social-icons li {
 }
 .wrapper_404 h1 {
   font-size: 200px;
-  color: #02bdd5;
+  color: #0f5475;
   line-height: 1;
 }
 .wrapper_404 h2 {
@@ -856,7 +857,7 @@ ul.social-icons li {
   font-size: 13px;
 }
 .team-member h3 {
-  color: #02bdd5;
+  color: #0f5475;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -864,7 +865,7 @@ ul.social-icons li {
   font-size: 14px;
 }
 .team-member .social-icons a {
-  background: #02bdd5;
+  background: #0f5475;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
@@ -872,6 +873,9 @@ ul.social-icons li {
 }
 .team-member .social-icons .facebook {
   padding: 4px 12px;
+}
+.about {
+  background: #FCFCFC;
 }
 .about-feature {
   margin-top: 50px;
@@ -886,7 +890,7 @@ ul.social-icons li {
   font-weight: 300;
 }
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #0f5475;
 }
 .about-feature .about-feature-2 {
   background: #00B0C7;
@@ -924,15 +928,15 @@ article {
   margin-top: 20px;
 }
 .blog-content .btn-details {
-  color: #02bdd5;
+  color: #0f5475;
   padding: 0;
-  background: #02bdd5;
+  background: #0f5475;
   color: #fff;
   padding: 8px 18px;
   border-radius: 0;
   margin-top: 15px;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #02bdd5;
+  box-shadow: 0px 0px 0px 1px #0f5475;
 }
 .blog-post-image {
   margin-top: 30px;
@@ -995,7 +999,7 @@ article {
   font-size: 15px;
 }
 .sidebar .recent-post ul li a:hover {
-  color: #02bdd5;
+  color: #0f5475;
 }
 .sidebar .recent-post time {
   font-weight: 300;
@@ -1036,7 +1040,7 @@ article {
   padding: 30px 20px;
 }
 .single-post .media .media-body a {
-  color: #02bdd5;
+  color: #0f5475;
   font-size: 12px;
 }
 .single-post .media .media {
@@ -1056,7 +1060,7 @@ article {
   border-radius: 0;
 }
 .single-post .post-comment .btn-send {
-  background: #02bdd5;
+  background: #0f5475;
   color: #fff;
   border-radius: 0;
 }
@@ -1067,7 +1071,7 @@ article {
 .social-share a {
   font-size: 20px;
   color: #fff;
-  background: #02bdd5;
+  background: #0f5475
   padding: 4px 10px;
   display: inline-block;
 }
