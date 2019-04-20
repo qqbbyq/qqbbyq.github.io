@@ -538,6 +538,9 @@ figure figcaption p {
   color: #0f5475;
 }
 .cd-headline.slide .cd-words-wrapper {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap!important;
   color: #0f5475;
 }
 ul.social-icons {
