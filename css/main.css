@@ -411,6 +411,7 @@ figure figcaption p {
 }
 #feature {
   padding: 80px 0;
+  background:#f7f7f7;
 }
 #feature .media {
   margin: 0px 0 70px 0;
@@ -913,7 +914,7 @@ ul.social-icons li {
 }
 .about {
   padding: 80px 0;
-  background: #FCFCFC;
+  background: #fff;
 }
 .about-feature {
   margin-top: 80px;
