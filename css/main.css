@@ -421,11 +421,11 @@ figure figcaption p {
   text-decoration: none;
   color: #fff;
   background-color: #0f5475;
-  height: 90px;
+  height: 60px;
   text-align: center;
-  width: 90px;
-  font-size: 45px;
-  line-height: 90px;
+  width: 60px;
+  font-size: 30px;
+  line-height: 60px;
   overflow: hidden;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
