@@ -13,7 +13,8 @@ Primary style
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
+  white-space: normal;
+  text-align:center;
   left: 0;
   top: 0;
 }
