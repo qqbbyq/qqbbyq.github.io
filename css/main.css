@@ -162,6 +162,10 @@ a:hover {
   position: relative;
   z-index: 999;
 }
+
+
+/*最大宽度为897px*/
+
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
@@ -170,6 +174,17 @@ a:hover {
   margin-bottom: 15px;
   text-transform: uppercase;
 }
+@media screen  and (max-width:450px){
+   #hero-area h1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+	}
+}
+
 #hero-area h2 {
   font-size: 18px;
   font-weight: 300;
@@ -421,6 +436,23 @@ figure figcaption p {
   text-decoration: none;
   color: #fff;
   background-color: #0f5475;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-shadow: #0f5470 1px 1px, #0f5470 2px 2px, #0f5470 3px 3px, #0f5470 4px 4px, #0f5470 5px 5px, #0f5470 6px 6px, #0f5470 7px 7px, #0f5470 8px 8px, #0f5470 9px 9px, #0f5470 10px 10px, #0f5470 11px 11px, #0f5470 12px 12px, #0f5470 13px 13px, #0f5470 14px 14px, #0f5470 15px 15px, #0f5470 16px 16px, #0f5470 17px 17px, #0f5470 18px 18px, #0f5470 19px 19px, #0f5470 20px 20px, #0f5470 21px 21px, #0f5470 22px 22px, #0f5470 23px 23px, #0f5470 24px 24px, #0f5470 25px 25px, #0f5470 26px 26px, #0f5470 27px 27px, #0f5470 28px 28px, #0f5470 29px 29px, #0f5470 30px 30px, #0f5470 31px 31px, #0f5470 32px 32px, #0f5470 33px 33px, #0f5470 34px 34px, #0f5470 35px 35px, #0f5470 36px 36px, #0f5470 37px 37px, #0f5470 38px 38px, #0f5470 39px 39px, #0f5470 40px 40px, #0f5470 41px 41px, #0f5470 42px 42px, #0f5470 43px 43px, #0f5470 44px 44px, #0f5470 45px 45px, #0f5470 46px 46px, #0f5470 47px 47px, #0f5470 48px 48px, #0f5470 49px 49px, #0f5470 50px 50px, #0f5470 51px 51px, #0f5470 52px 52px, #0f5470 53px 53px, #0f5470 54px 54px, #0f5470 55px 55px, #0f5470 56px 56px, #0f5470 57px 57px, #0f5470 58px 58px, #0f5470 59px 59px, #0f5470 60px 60px, #0f5470 61px 61px, #0f5470 62px 62px, #0f5470 63px 63px, #0f5470 64px 64px, #0f5470 65px 65px, #0f5470 66px 66px, #0f5470 67px 67px, #0f5470 68px 68px, #0f5470 69px 69px, #0f5470 70px 70px, #0f5470 71px 71px, #0f5470 72px 72px, #0f5470 73px 73px, #0f5470 74px 74px, #0f5470 75px 75px, #0f5470 76px 76px, #0f5470 77px 77px, #0f5470 78px 78px, #0f5470 79px 79px, #0f5470 80px 80px, #0f5470 81px 81px, #0f5470 82px 82px, #0f5470 83px 83px, #0f5470 84px 84px, #0f5470 85px 85px, #0f5470 86px 86px, #0f5470 87px 87px, #0f5470 88px 88px, #0f5470 89px 89px, #0f5470 90px 90px, #0f5470 91px 91px, #0f5470 92px 92px, #0f5470 93px 93px, #0f5470 94px 94px, #0f5470 95px 95px, #0f5470 96px 96px, #0f5470 97px 97px, #0f5470 98px 98px, #0f5470 99px 99px, #0f5470 100px 100px;
+}
+@media screen  and (max-width:450px){
+	#feature .icon {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0f5475;
   height: 60px;
   text-align: center;
   width: 60px;
@@ -433,6 +465,8 @@ figure figcaption p {
   -o-border-radius: 50%;
   text-shadow: #0f5470 1px 1px, #0f5470 2px 2px, #0f5470 3px 3px, #0f5470 4px 4px, #0f5470 5px 5px, #0f5470 6px 6px, #0f5470 7px 7px, #0f5470 8px 8px, #0f5470 9px 9px, #0f5470 10px 10px, #0f5470 11px 11px, #0f5470 12px 12px, #0f5470 13px 13px, #0f5470 14px 14px, #0f5470 15px 15px, #0f5470 16px 16px, #0f5470 17px 17px, #0f5470 18px 18px, #0f5470 19px 19px, #0f5470 20px 20px, #0f5470 21px 21px, #0f5470 22px 22px, #0f5470 23px 23px, #0f5470 24px 24px, #0f5470 25px 25px, #0f5470 26px 26px, #0f5470 27px 27px, #0f5470 28px 28px, #0f5470 29px 29px, #0f5470 30px 30px, #0f5470 31px 31px, #0f5470 32px 32px, #0f5470 33px 33px, #0f5470 34px 34px, #0f5470 35px 35px, #0f5470 36px 36px, #0f5470 37px 37px, #0f5470 38px 38px, #0f5470 39px 39px, #0f5470 40px 40px, #0f5470 41px 41px, #0f5470 42px 42px, #0f5470 43px 43px, #0f5470 44px 44px, #0f5470 45px 45px, #0f5470 46px 46px, #0f5470 47px 47px, #0f5470 48px 48px, #0f5470 49px 49px, #0f5470 50px 50px, #0f5470 51px 51px, #0f5470 52px 52px, #0f5470 53px 53px, #0f5470 54px 54px, #0f5470 55px 55px, #0f5470 56px 56px, #0f5470 57px 57px, #0f5470 58px 58px, #0f5470 59px 59px, #0f5470 60px 60px, #0f5470 61px 61px, #0f5470 62px 62px, #0f5470 63px 63px, #0f5470 64px 64px, #0f5470 65px 65px, #0f5470 66px 66px, #0f5470 67px 67px, #0f5470 68px 68px, #0f5470 69px 69px, #0f5470 70px 70px, #0f5470 71px 71px, #0f5470 72px 72px, #0f5470 73px 73px, #0f5470 74px 74px, #0f5470 75px 75px, #0f5470 76px 76px, #0f5470 77px 77px, #0f5470 78px 78px, #0f5470 79px 79px, #0f5470 80px 80px, #0f5470 81px 81px, #0f5470 82px 82px, #0f5470 83px 83px, #0f5470 84px 84px, #0f5470 85px 85px, #0f5470 86px 86px, #0f5470 87px 87px, #0f5470 88px 88px, #0f5470 89px 89px, #0f5470 90px 90px, #0f5470 91px 91px, #0f5470 92px 92px, #0f5470 93px 93px, #0f5470 94px 94px, #0f5470 95px 95px, #0f5470 96px 96px, #0f5470 97px 97px, #0f5470 98px 98px, #0f5470 99px 99px, #0f5470 100px 100px;
 }
+	
+	}
 #contact-section {
   padding: 90px 0;
 }
